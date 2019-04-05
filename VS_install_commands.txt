@@ -1,0 +1,14 @@
+#Copy the follow lines into an IoT Greenhouse terminal window to install VS Code.
+#You must be in super user mode. The last "exit" command will remove su mode.
+
+sudo su
+
+wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add –
+
+curl -L https://code.headmelted.com/installers/apt.sh | sudo bash
+
+apt-get install code-oss=1.29.0-1539702286
+
+apt-mark unhold code-oss
+
+exit
