@@ -1,5 +1,7 @@
+#IoT Greenhouse - Visual Studio Code installation
 #Copy the follow lines into an IoT Greenhouse terminal window to install VS Code.
-#You must be in super user mode. The last "exit" command will remove su mode.
+#The first instruction enters super user mode. Provide the required password.
+#The last "exit" command will remove su mode.
 
 sudo su
 
