@@ -14,8 +14,8 @@ ghs = IoTGreenhouseService()
 
 #create empty lists for light and temp values
 l_readings = []
-
 t_readings = []
+
 print("Reading temperature and light levels.")
 print("Press and hold push-button to end sampling.")
 while ghs.switches.push_button.is_off():
